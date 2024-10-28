@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: stmp-users
+  data:
+    mongodb:
+      authentication-database: admin
+      database: smtp-database
+      port: 27017
+      host: localhost
+      auto-index-creation: true
